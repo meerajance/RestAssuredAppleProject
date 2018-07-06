@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="3" total="4" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="2237" started-at="2018-07-06T18:37:04Z" finished-at="2018-07-06T18:37:06Z">
+  <suite name="Default suite" duration-ms="2582" started-at="2018-07-06T19:44:08Z" finished-at="2018-07-06T19:44:11Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="2237" started-at="2018-07-06T18:37:04Z" finished-at="2018-07-06T18:37:06Z">
+    <test name="Default test" duration-ms="2582" started-at="2018-07-06T19:44:08Z" finished-at="2018-07-06T19:44:11Z">
       <class name="BasicCarTest">
-        <test-method status="PASS" signature="printHighesteRevenueGeneratedCar()[pri:0, instance:BasicCarTest@61832929]" name="printHighesteRevenueGeneratedCar" duration-ms="2205" started-at="2018-07-06T18:37:04Z" finished-at="2018-07-06T18:37:06Z">
+        <test-method status="PASS" signature="printHighesteRevenueGeneratedCar()[pri:0, instance:BasicCarTest@61832929]" name="printHighesteRevenueGeneratedCar" duration-ms="2548" started-at="2018-07-06T19:44:08Z" finished-at="2018-07-06T19:44:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- printHighesteRevenueGeneratedCar -->

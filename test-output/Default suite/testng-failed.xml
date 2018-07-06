@@ -5,7 +5,7 @@
     <classes>
       <class name="BasicCarTest">
         <methods>
-          <include name="printCarswithLowestPerDayRental"/>
+          <include name="printHighesteRevenueGeneratedCar"/>
         </methods>
       </class> <!-- BasicCarTest -->
     </classes>

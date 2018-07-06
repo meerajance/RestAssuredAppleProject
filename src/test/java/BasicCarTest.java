@@ -17,6 +17,8 @@ import static org.hamcrest.Matchers.equalTo;
 import static org.junit.Assert.assertThat;
 
 public class BasicCarTest {
+	public String endPoint="http://localhost:3000/cars";
+	
 	 @Test
 	    public void simpleJsonValidationWithJsonPath() throws Exception {
 	       
@@ -54,7 +56,7 @@ public class BasicCarTest {
 		    
 	        String responseString =
 	                when()
-	                    .get("http://localhost:3000/cars").asString();
+	                    .get(endPoint).asString();
 	        
 	        //JsonPath json= new JsonPath(responseString).setRoot("Car");
 	        JsonPath json= new JsonPath(responseString);
@@ -103,7 +105,7 @@ public class BasicCarTest {
 		    
 	        String responseString =
 	                when()
-	                    .get("http://localhost:3000/cars").asString();
+	                    .get(endPoint).asString();
 	        
 	        JsonPath json= new JsonPath(responseString);
 	        List<Car> carsDetails= json.getList("Car",Car.class);
@@ -135,7 +137,7 @@ public class BasicCarTest {
 	        }
 	        
 	        for(Car car:maxKeyList) {
-	        	System.out.println("Highest revenue Ge Cars :: "+car.getMake()
+	        	System.out.println("Highest revenue Geerate Cars :: "+car.getMake()
 	        	+" VIN# :: "+car.getVin()		
 	        	+" rent price :: "+car.getPerdayrent().getPrice()
 	        			+" rent with revenue details :: "+carWithRevenueDetails.get(car));

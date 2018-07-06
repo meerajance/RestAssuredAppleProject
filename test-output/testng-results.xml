@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="4" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="2237" started-at="2018-07-06T18:37:04Z" finished-at="2018-07-06T18:37:06Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="2237" started-at="2018-07-06T18:37:04Z" finished-at="2018-07-06T18:37:06Z">
+      <class name="BasicCarTest">
+        <test-method status="PASS" signature="printHighesteRevenueGeneratedCar()[pri:0, instance:BasicCarTest@61832929]" name="printHighesteRevenueGeneratedCar" duration-ms="2205" started-at="2018-07-06T18:37:04Z" finished-at="2018-07-06T18:37:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printHighesteRevenueGeneratedCar -->
+      </class> <!-- BasicCarTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
